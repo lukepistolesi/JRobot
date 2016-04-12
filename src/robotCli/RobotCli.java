@@ -1,7 +1,6 @@
 package robotCli;
 
 import java.io.Console;
-import java.util.Scanner;
 
 import robotCli.robot.Robot;
 

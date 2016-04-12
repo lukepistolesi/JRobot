@@ -1,3 +1,4 @@
+package robotCli;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,7 +21,7 @@ import java.util.Arrays;
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({RobotCli.class, Playground.class, System.class})
-public class MainTest {
+public class RobotCliTest {
 
   public Playground mockedGround;
   public Robot mockedRobot;

@@ -2,8 +2,27 @@ package robotCli;
 
 public class Playground {
 
-  public Playground(int x, int y) {
-    System.out.println("NEEWWW");
+	private int width, height;
+
+  public int getWidth() {
+		return width;
+	}
+
+	public void setWidth(int width) {
+		this.width = width;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}
+
+	public Playground(int width, int height) {
+    this.setWidth(width);
+    this.setHeight(height);
   }
 
 }
