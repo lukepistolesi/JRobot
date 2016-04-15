@@ -4,6 +4,11 @@ public class Playground {
 
 	private int width, height;
 
+	public Playground(int width, int height) {
+    this.setWidth(width);
+    this.setHeight(height);
+  }
+
   public int getWidth() {
 		return width;
 	}
@@ -19,10 +24,5 @@ public class Playground {
 	public void setHeight(int height) {
 		this.height = height;
 	}
-
-	public Playground(int width, int height) {
-    this.setWidth(width);
-    this.setHeight(height);
-  }
 
 }
